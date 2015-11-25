@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#ffefebe7">
+    
+    <RelativeLayout
+        android:id="@+id/top_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip" >
+        
+    <ImageView
+        android:id="@+id/titleBg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#106184"
+        android:contentDescription="@string/recharge" />
+    <ImageView
+        android:id="@+id/progressImage"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/android_title_bg_progress"
+        android:visibility="gone"
+        android:contentDescription="@string/recharge" />
+    <Button
+        android:id="@+id/titleRightButton"
+        style="\@style/title_right_button"
+        android:layout_width="100.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="2.0dip"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="15sp"
+        android:padding="10.0dip"
+        android:singleLine="true"
+        android:text="@string/recharge"
+        android:textColor="@color/white" />
+		</RelativeLayout>
+ <ScrollView
+        android:id="@+id/regist_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@id/top_relative"
+         android:background="#ffefebe7">
+
+            <RelativeLayout
+                android:id="@+id/regist_scroller_relative"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10.0dip" >
+
+
+        <TextView
+            android:id="@+id/recharge_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingTop="10.0dip"
+            android:text="@string/recharge_money"
+            android:textColor="@color/black" />
+
+       <EditText
+            android:id="@+id/recharge_moneydisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/recharge_money"
+            android:layout_toRightOf="@+id/recharge_money"
+            android:background="@drawable/edit_text_x"
+            android:textColor="#4A4A4A"
+            android:hint=""
+            android:singleLine="true" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/login_page_input_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recharge_money"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingTop="10.0dip"
+            android:text="@string/Account"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/login_input_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/login_page_input_name"
+            android:layout_toRightOf="@+id/login_page_input_name"
+            android:background="@drawable/edit_text_x"
+            android:textColor="#4A4A4A"
+            android:hint=""
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_page_input_name"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingTop="10.0dip"
+            android:text="@string/paypay"
+            android:hint=""
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/Password_display"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/Password"
+            android:layout_toRightOf="@+id/Password"
+            android:textColor="#4A4A4A"
+            android:background="@drawable/edit_text_x"
+            android:hint=""
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Password"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingTop="10.0dip"
+            android:text="@string/balance"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/balance_display"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/balance"
+            android:text=""
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/balance"
+            android:background="@drawable/edit_text_x"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/recharge_moneydisplay"
+            android:layout_below="@+id/balance_display"
+            android:layout_marginTop="17dp"
+            android:text="@string/btn_ok" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_marginLeft="61dp"
+            android:layout_toRightOf="@+id/button1"
+            android:text="@string/btn_cancel" />
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

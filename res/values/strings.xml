@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">支付通</string>
+    <string name="ActivityMainTitle">支付通</string>
+    <string name="main_navigation_home">首页</string>
+    <string name="main_navigation_catagory">支付记录</string>
+    <string name="main_code_buy">账号管理</string>
+    <string name="main_navigation_more">更多</string>
+    <string name="app_close">关闭应用程序</string>
+    <string name="btn_cancel">取 消</string>
+    <string name="btn_ok">确 定</string>
+    <string name="Account">卡 号</string>
+    <string name="Passwd">密码</string>
+    <string name="pay">支付</string>
+	<string name="transfer">转账</string>
+	<string name="recharge">充值</string>
+	<string name="phone">手 机</string>
+	<string name="balance">余 额</string>
+	<string name="QRcode">二维码</string>
+	<string name="add">添加卡</string>
+	<string name="add_phone">添加手机号</string>
+	<string name="recharge_money">充值金额</string>
+	<string name="transfer_money">转账金额</string>
+	<string name="paypay">支付密码</string>
+	<string name="gen">生成二维码</string>
+	<string name="open_camera">打开相机</string>
+	<string name="scan_result">扫描结果</string>
+	<string name="input_the_text">输入文本</string>
+	<string name="Generate_QRcode">生成二维码</string>
+	<string name="save">保存</string>
+	<string name="information_completed">信息完整</string>
+	<string name="information_nocompleted">信息未完整请补充</string>
+	<string name="hello">Hello World, Date!</string>
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="login">登 录</string>
+    <string name="register">注册</string>
+    <string name="cancle">取消</string>
+    <string name="account_empty">用户名为空，请重新输入！</string>
+    <string name="pwd_empty">密码为空，请重新输入！</string>
+    <string name="register_fail">注册用户失败，请重新尝试！</string>
+    <string name="register_sucess">注册成功！</string>
+    <string name="more">更多</string>
+    <string name="setting">设置</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about">关于</string>
+    <string name="user_name">用户名</string>
+    <string name="money">金额</string>
+    <string name="login_sucess">登陆成功！</string>
+    <string name="login_fail">登陆失败！请输入正确的用户名与密码！</string>
+    <string name="name_already_exist">用户名：<xliff:g id="id1" example="tom">%1$s</xliff:g>已存在，请重新输入！</string>
+    <string name="user_login_sucess">用户：<xliff:g id="id2" example="tom">%1$s</xliff:g>登录，欢迎光临！</string>
+</resources>
